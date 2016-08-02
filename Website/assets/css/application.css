@@ -1,0 +1,103 @@
+/* 
+ * 
+ * Styles for the DSGN-470 Communication Design Final Project
+ * Team: Umang Shukla, Rachael Tachie-Menson, David Songer
+ * 
+ * 
+*/
+
+/* === BOOTSTRAP OVERRIDES === */
+
+
+
+/* === END BOOTSTRAP OVERRIDES === */
+
+
+/* === FILLER CONTENT STYLES === */
+
+.content-container {
+	margin: 5px;
+	background-color: #d6d6d6;
+	border-radius: 5px;
+	height: 600px;
+}
+.footer-content-container {
+	margin: 5px;
+	padding: 30px;
+	background-color: #777;
+	border-radius: 5px;
+	height: 300px;
+}
+.footer-content-container a {
+	color: #fff;
+}
+
+@media (max-width: 991px) {
+	
+	.first-row .content-container {
+		height: 300px;
+	}
+	.footer-content-container {
+		height: 150px;
+	}
+	
+}
+
+/* === END FILLER CONTENT STYLES === */
+
+/* === UTILITY CLASSES === */
+
+.pushdown {margin-top: 60px;}
+.margin-bottom-15px {margin-bottom: 15px;}
+.margin-bottom-30px {margin-bottom: 30px;}
+.margin-top-15px {margin-top: 15px;}
+.margin-top-30px {margin-top: 30px;}
+.last {margin-bottom: 0;}
+
+
+.height-10px {height: 10px;}
+.height-60px {height: 60px;}
+.height-110px {height: 110px;}
+.height-160px {height: 160px;}
+.height-210px {height: 210px;}
+.height-260px {height: 260px;}
+.height-310px {height: 310px;}
+.width-100 {width:100%;}
+
+
+.center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+
+
+.inline { display: inline;}
+.left {float: left;}
+.right {float: right;}
+.block {display: block;}
+.inline-block {display: inline-block;}
+
+
+.inactive {opacity: 0.3;}
+.weight-500 {font-weight: 500;}
+.weight-900 {font-weight: 900;}
+
+.color-primary {color: #000;} /* black */
+.background-primary {background-color: #000;} /* black */
+.color-secondary {color: #000;} /* black */
+.background-secondary {background-color: #000;} /* black */
+.color-tertiary {color: #000;} /* black */
+.background-tertiary {background-color: #000;} /* black */
+
+.logo {
+	color: #fff;
+	margin-top: 6px;
+	font-size: 24px;
+}
+.logo-font {
+	font-family: 'Arial', sans-serif;
+}
+
+
+
+/* === END UTILITY CLASSES === */
+
