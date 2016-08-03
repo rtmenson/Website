@@ -8,7 +8,12 @@
 
 /* === BOOTSTRAP OVERRIDES === */
 
-
+.col-md-8, .col-md-4, .col-md-2, .team {
+	min-height: 550px;
+}
+.col-md-6 {
+	min-height: 300px;
+}
 
 /* === END BOOTSTRAP OVERRIDES === */
 
@@ -16,17 +21,12 @@
 /* === FILLER CONTENT STYLES === */
 
 .content-container {
-	margin: 5px;
-	background-color: #d6d6d6;
-	border-radius: 5px;
-	height: 600px;
+	color: #fff;
 }
 .footer-content-container {
-	margin: 5px;
+	/*margin: 5px;*/
 	padding: 30px;
-	background-color: #777;
-	border-radius: 5px;
-	height: 300px;
+	/*border-radius: 5px;*/
 }
 .footer-content-container a {
 	color: #fff;
@@ -45,9 +45,43 @@
 
 /* === END FILLER CONTENT STYLES === */
 
+.product {
+	background: url('../img/run2.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.tech {
+	background: url('../img/weights.jpg');
+	background-repeat: no-repeat;
+}
+.testimonials {
+	background: url('../img/in_the_wild.jpg');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.team {
+	background-color: #000;
+}
+.footer-container {
+	background-color: #777;
+}
+
+.title-container {
+	margin-top: 150px;
+}
+.title {
+	font-size: 24px;
+}
+.inactive .title {
+	font-size: 14px;
+}
+.active .title {
+	font-size: 48px;
+}
+
 /* === UTILITY CLASSES === */
 
-.pushdown {margin-top: 60px;}
+.pushdown {margin-top: 76px;}
 .margin-bottom-15px {margin-bottom: 15px;}
 .margin-bottom-30px {margin-bottom: 30px;}
 .margin-top-15px {margin-top: 15px;}
