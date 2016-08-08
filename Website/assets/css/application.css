@@ -1,9 +1,9 @@
-/* 
- * 
+/*
+ *
  * Styles for the DSGN-470 Communication Design Final Project
  * Team: Umang Shukla, Rachael Tachie-Menson, David Songer
- * 
- * 
+ *
+ *
 */
 
 /* === BOOTSTRAP OVERRIDES === */
@@ -33,14 +33,14 @@
 }
 
 @media (max-width: 991px) {
-	
+
 	.first-row .content-container {
 		height: 300px;
 	}
 	.footer-content-container {
 		height: 150px;
 	}
-	
+
 }
 
 /* === END FILLER CONTENT STYLES === */
@@ -51,8 +51,9 @@
 	background-position: center bottom;
 }
 .tech {
-	background: url('../img/weights.jpg');
+	background: url('../img/vi_full_device-color.jpg');
 	background-repeat: no-repeat;
+	background-position: center bottom;
 }
 .testimonials {
 	background: url('../img/in_the_wild.jpg');
@@ -128,10 +129,9 @@
 	font-size: 24px;
 }
 .logo-font {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
 
 /* === END UTILITY CLASSES === */
-
